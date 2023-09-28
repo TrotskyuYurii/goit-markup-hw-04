@@ -34,7 +34,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1158px; /* 1128+15+15=1158 or 1440 ?*/
+  max-width: 1158px; 
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -238,6 +238,26 @@ padding-bottom: 120px;
 .strategy-list-item{
   max-width: 264px;
 }
+
+.strategy-list-wrap{
+  display: flex;
+
+  margin-bottom: 8px;
+  
+
+  border-radius: 4px;
+  border: 1px solid #8E8F99;
+  background: #F4F4FD;
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+}
+
+.strategy-list-img {
+  padding-left: 100px;  
+}
+
+
 
 .strategy-list-sub {
   color: #2e2f42;
