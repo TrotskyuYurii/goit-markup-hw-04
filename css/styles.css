@@ -170,6 +170,11 @@ body {
   background: #2e2f42;
   max-height: 600px;
   padding: 188px 0;
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url(../images/main-backgrond.jpg);
 }
 
 .main-title {
@@ -183,7 +188,7 @@ body {
 }
 
 .main-container{
-
+  
 }
 
 
