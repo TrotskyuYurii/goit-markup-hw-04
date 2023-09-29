@@ -486,6 +486,17 @@ padding-bottom: 120px;
     color: #F4F4FD;
 }
 
+
+.footer-li{
+  display: flex;
+  /* padding-left: 156px; */
+  gap: 120px;
+}
+
+.footer-soc-box{
+  align-items: center;
+}
+
 .footer-text{
     color: #F4F4FD;
     line-height: 1.5; /* 150% */
@@ -494,14 +505,13 @@ padding-bottom: 120px;
     margin-top: 17.5px;
 }
 
-
-
 .footer-social-media{
   color: var(--WHITE, #FFF);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0,02em; 
+  padding-bottom: 16px;
 }
 
 .footer-list{
