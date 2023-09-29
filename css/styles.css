@@ -368,9 +368,19 @@ padding-bottom: 120px;
   background-color: #4D5AE5;
   border-radius: 100%;
   width: 40px;
-  height: 40px;
-    
+  height: 40px;   
 }
+
+.ourteam-soc-wrap:hover {
+  background: #404BBF;
+  cursor: pointer;
+}
+
+.ourteam-soc-wrap:focus {
+  background: #404BBF;
+  cursor: pointer;
+}
+
 
 .ourteam-soc-svg{
   padding-left: 11px;
