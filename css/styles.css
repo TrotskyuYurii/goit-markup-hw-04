@@ -122,6 +122,8 @@ body {
   color: #404bbf;
 }
 
+
+
 .header-logo span {
   color: #2e2f42;z
 }
@@ -135,11 +137,7 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  
-}
 
-.header-menu-item{
-  
 }
 
 .address{
@@ -194,8 +192,6 @@ body {
 .main-container{
   
 }
-
-
 
 
 
@@ -457,6 +453,27 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;  
 }
 
+
+.ourportfolio-item1{
+
+}
+
+.ourportfolio-item2{
+  
+}
+.ourportfolio-item3{
+  
+}
+.ourportfolio-item4{
+  
+}
+.ourportfolio-item5{
+  
+}
+
+.ourportfolio-item6{
+  
+}
 
 
 
