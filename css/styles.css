@@ -133,11 +133,11 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  /* padding: 24px 0; */
+  
 }
 
 .header-menu-item{
-  /* padding: 24px 0; */
+  
 }
 
 .address{
@@ -192,6 +192,9 @@ body {
 }
 
 
+
+
+
 /* section 1 */
 .main-btn {
   display: block;
@@ -220,6 +223,9 @@ body {
   background: #404bbf;
   cursor: pointer;
 }
+
+
+
 
 
 
@@ -257,8 +263,6 @@ padding-bottom: 120px;
   padding-left: 100px;  
 }
 
-
-
 .strategy-list-sub {
   color: #2e2f42;
   font-size: 20px;
@@ -273,6 +277,9 @@ padding-bottom: 120px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
+
+
+
 
 
 
@@ -313,10 +320,13 @@ padding-bottom: 120px;
   border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #FFF);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  /* padding-bottom: 400px; */
+  height: 428px;
 }
 
 .ourteam-name-prof{
   padding: 32px 0;
+  
 }
 
 .ourteam-img{
@@ -338,7 +348,33 @@ padding-bottom: 120px;
     font-size: 16px;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em; 
-    /* margin-bottom: 32px;   */
+}
+
+.ourteam-soc{
+  fill: none;
+  display: flex;
+  gap: 24px;
+  padding-left: 15px;
+  padding-top: 8px;
+}
+
+.ourteam-soc-list{
+
+}
+
+.ourteam-soc-wrap{
+  display: flex;
+  flex-direction: row;
+  background-color: #4D5AE5;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+    
+}
+
+.ourteam-soc-svg{
+  padding-left: 11px;
+  
 }
 
 
@@ -352,8 +388,7 @@ padding-bottom: 120px;
 }
 
 .ourportfolio-container{
-/* margin-top: 120px;
-margin-bottom: 120px; */
+
 }
 
 .ourportfolio-list{
@@ -367,7 +402,7 @@ margin-bottom: 120px; */
 .ourportfolio-item{
   background: var(--WHITE, #FFF);
   width: calc((100% - 48px) / 3);
-  /* max-height: 420px; */
+  
 }
 
 .ourportfolio-title {
@@ -382,8 +417,7 @@ margin-bottom: 120px; */
 }
 
 .ourportfolio-img{
-  /* margin-bottom: 32px; */
-  /* border: 1px solid #e7e9fc;  */
+
 }
 
 .ourportfolio-sub-text{
@@ -406,6 +440,11 @@ margin-bottom: 120px; */
     letter-spacing: 0.02em;  
     /* margin-bottom: 32px;   */
 }
+
+
+
+
+
 
 /* footer */
 .footer-container{
