@@ -496,6 +496,19 @@ padding-bottom: 120px;
 
 
 
+.footer-social-media{
+  color: var(--WHITE, #FFF);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0,02em; 
+}
+
+.footer-list{
+  display: flex;
+  gap: 16px;
+}
+
 .footer-soc-wrap{
   display: flex;
   flex-direction: row;
@@ -505,7 +518,6 @@ padding-bottom: 120px;
   height: 40px;  
   transition-property:  background-color;
   transition-duration: 500ms;
-
 }
 
 .footer-soc-wrap:hover {
