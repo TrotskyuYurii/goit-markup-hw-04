@@ -418,6 +418,49 @@ padding-bottom: 120px;
   
 }
 
+
+
+/* Оновлений стиль для .ourportfolio-item1 */
+.ourportfolio-item1 {
+  position: relative;
+  overflow: hidden; /* Додано для обрізання змісту .ourportfolio-bankingapp-wrap */
+}
+
+/* Оновлений стиль для .ourportfolio-bankingapp-wrap */
+.ourportfolio-bankingapp-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #4D5AE5;
+  opacity: 0;
+  transform: translateY(100%);
+  transform-origin: bottom; /* Задаємо точку виходу анімації */
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+/* Змінюємо вміст при наведенні мишки на .ourportfolio-item1 */
+.ourportfolio-item1:hover .ourportfolio-bankingapp-wrap {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+
+
+
+
+
+.ourportfolio-bankingapp-text{
+  padding-left: 32px;
+  padding-top: 40px;
+  padding-right: 32px;
+  color: #F4F4FD;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
 .ourportfolio-title {
   color: #2E2F42;
   text-align: center;
@@ -427,6 +470,7 @@ padding-bottom: 120px;
   letter-spacing: 0.02em;
   text-transform: capitalize; 
   margin-bottom: 72px; 
+  
 }
 
 .ourportfolio-img{
@@ -454,9 +498,7 @@ padding-bottom: 120px;
 }
 
 
-.ourportfolio-item1{
 
-}
 
 .ourportfolio-item2{
   
