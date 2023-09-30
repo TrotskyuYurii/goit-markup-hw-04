@@ -550,8 +550,6 @@ padding-bottom: 120px;
 
 
 /* footer */
-.footer-container{
-}
 
 .footer{
  background: #2E2F42;   
@@ -575,14 +573,25 @@ padding-bottom: 120px;
     color: #F4F4FD;
 }
 
+.footer-all-div{
+  display: flex;
+  align-items: baseline;
+  
+  }
+
+
+.footer-container{
+  margin-right: 120px;
+}
+
+
+.footer-soc-box{
+  align-items: center;
+}
 
 .footer-li{
   display: flex;
   gap: 120px;
-}
-
-.footer-soc-box{
-  align-items: center;
 }
 
 .footer-text{
