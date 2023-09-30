@@ -552,7 +552,7 @@ padding-bottom: 120px;
 .footer-all-div{
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+  /* margin-right: 120px; */
   }
 
 .footer-logo{
@@ -572,13 +572,13 @@ padding-bottom: 120px;
 }
 
 .footer-container{
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 
 
 .footer-soc-box{
   /* align-items: center; */
-  margin-right: 120px; 
+  /* margin-right: 120px;  */
 }
 
 
