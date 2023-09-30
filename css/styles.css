@@ -557,7 +557,6 @@ padding-bottom: 120px;
 .footer{
  background: #2E2F42;   
  padding: 100px 0;
- /* margin-right: 120px;*/
 }
 
 .footer-logo{
@@ -579,12 +578,12 @@ padding-bottom: 120px;
 .footer-all-div{
   display: flex;
   align-items: baseline;
-  /* margin-right: 120px; */
+  margin-right: 120px;
   }
 
 
 .footer-container{
-  /* margin-right: 120px; */
+
 }
 
 
@@ -593,10 +592,6 @@ padding-bottom: 120px;
   margin-right: 120px; 
 }
 
-.footer-li{
-  display: flex;
-  gap: 120px;
-}
 
 .footer-text{
     color: #F4F4FD;
@@ -612,7 +607,6 @@ padding-bottom: 120px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em; 
-  /* padding-bottom: 16px; */
   margin-bottom: 16px;
 }
 
