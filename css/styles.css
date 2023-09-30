@@ -395,6 +395,12 @@ padding-bottom: 120px;
 
 }
 
+.ourteam-link{
+  width: 100%;
+  height: 100%;
+}
+
+
 .ourteam-soc-wrap{
   display: flex;
   flex-direction: row;
