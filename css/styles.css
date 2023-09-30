@@ -557,12 +557,11 @@ padding-bottom: 120px;
 .footer{
  background: #2E2F42;   
  padding: 100px 0;
- /* margin-right: 120px; Потребовала проверка */
+ /* margin-right: 120px;*/
 }
 
 .footer-logo{
     display: inline-block; 
-    /* margin-bottom: 16px; */
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -585,13 +584,13 @@ padding-bottom: 120px;
 
 
 .footer-container{
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 
 
 .footer-soc-box{
   align-items: center;
-  /* margin-right: 120px;  */
+  margin-right: 120px; 
 }
 
 .footer-li{
