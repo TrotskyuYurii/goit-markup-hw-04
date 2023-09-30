@@ -392,7 +392,8 @@ padding-bottom: 120px;
 }
 
 .ourteam-soc-list{
-
+  width: 40px; 
+  height: 40px; 
 }
 
 .ourteam-soc-wrap{
@@ -401,12 +402,13 @@ padding-bottom: 120px;
   flex-direction: row;
   background-color: #4D5AE5;
   border-radius: 50%;
-  width: 40px;
-  height: 40px; 
+  /* width: 40px;
+  height: 40px;  */
+  width: 100%;
+  height: 100%;
   align-items: center; 
   justify-content: center;  
-  transition-property:  background-color;
-  transition-duration: 500ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -422,8 +424,8 @@ padding-bottom: 120px;
 
 
 .ourteam-soc-svg{
-  padding-left: 11px;
-  
+  /* padding-left: 11px; */
+  fill: #f4f4fd;
 }
 
 
