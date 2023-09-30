@@ -482,7 +482,7 @@ padding-bottom: 120px;
 }
 
 .ourportfolio-item:hover .ourportfolio-wrap {
-  transform: translateY(0%);
+  transform: translateY(0);
 }
 
 .ourportfolio-item:hover .ourportfolio-bankingapp-text {
