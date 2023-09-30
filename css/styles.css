@@ -226,7 +226,7 @@ body {
 
 
 
-/* section 1 */
+/* section 2 */
 .main-btn {
   display: block;
   min-width: 169px;
@@ -279,8 +279,9 @@ padding-bottom: 120px;
 
 .strategy-list-wrap{
   display: flex;
-
-  margin-bottom: 8px;
+  align-items: center; 
+  justify-content: center;
+  margin-bottom:  8px;
   
 
   border-radius: 4px;
