@@ -554,7 +554,7 @@ padding-bottom: 120px;
 .footer{
  background: #2E2F42;   
  padding: 100px 0;
- margin-right: 120px; 
+ margin-right: 120px; /* Потребовала проверка */
 }
 
 .footer-logo{
