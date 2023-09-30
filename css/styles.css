@@ -449,8 +449,6 @@ padding-bottom: 120px;
   row-gap: 48px;
 }
 
-
-
 .ourportfolio-title {
   color: #2E2F42;
   text-align: center;
@@ -462,14 +460,6 @@ padding-bottom: 120px;
   margin-bottom: 72px; 
   
 }
-
-
-
-
-
-
-
-
 
 .ourportfolio-item {
   width: calc((100% - 2 * 24px) / 3);
@@ -559,6 +549,12 @@ padding-bottom: 120px;
  padding: 100px 0;
 }
 
+.footer-all-div{
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+  }
+
 .footer-logo{
     display: inline-block; 
     color: #4D5AE5;
@@ -575,20 +571,13 @@ padding-bottom: 120px;
     color: #F4F4FD;
 }
 
-.footer-all-div{
-  display: flex;
-  align-items: baseline;
-  margin-right: 120px;
-  }
-
-
 .footer-container{
-
+  margin-right: 120px;
 }
 
 
 .footer-soc-box{
-  align-items: center;
+  /* align-items: center; */
   margin-right: 120px; 
 }
 
