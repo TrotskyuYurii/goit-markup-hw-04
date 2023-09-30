@@ -388,6 +388,7 @@ padding-bottom: 120px;
   gap: 24px;
   padding-left: 15px;
   padding-top: 8px;
+  justify-content: center;
 }
 
 .ourteam-soc-list{
